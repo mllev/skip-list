@@ -12,10 +12,13 @@ This implementation makes 3 optimizations to the standard skip list probability 
 ### Usage
 
 ```c
+#include <stdio.h>
+
+#include "list.h"
+
 int main (void) {
   list* d;
-  unsigned char* key;
-  unsigned char* val;
+  unsigned char *key, *val;
   unsigned long v;
   int l;
 

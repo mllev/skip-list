@@ -14,6 +14,7 @@
 
 typedef unsigned char   byte_t;
 typedef unsigned long   word_t;
+
 typedef struct listNode listNode;
 
 word_t bytes;
