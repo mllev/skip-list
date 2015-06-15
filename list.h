@@ -145,8 +145,8 @@ typedef struct {
   listNode *itr; \
   itr = d->head; \
   while (itr->next[0]) { \
-    it(itr); \
     itr = itr->next[0]; \
+    it(itr); \
   } \
 } while (0)
 
