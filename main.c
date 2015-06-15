@@ -45,7 +45,6 @@ int main (int argc, char** argv) {
   word_t v;
   double end, start;
 
-  srand(time(NULL));
   /* initialize the list */
   LIST_INIT(d);
 
