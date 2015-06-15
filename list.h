@@ -1,5 +1,5 @@
 /*
- * A lightnight fast, header only skip list
+ * A high performance, header only skip list
  * Author - Matthew Levenstein
  * License - MIT
  */
