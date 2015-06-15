@@ -18,7 +18,7 @@ byte_t* getWord (FILE* f) {
   return buf;
 } 
 
-void wordBench (list* root, int argc, char** argv) {
+void loadWords (list* root) {
   FILE* in = fopen("words.txt", "r");
   byte_t* word = NULL;
 
@@ -50,7 +50,7 @@ int main (int argc, char** argv) {
 
   start = (float)clock()/CLOCKS_PER_SEC;
   /* load 100,000 english words into the structure */
-  wordBench(d, argc, argv);
+  loadWords(d);
   /* iterate through the list and print */
   LIST_ITERATE(d, printKey);
 
